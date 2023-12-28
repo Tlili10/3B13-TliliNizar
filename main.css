@@ -141,4 +141,22 @@
       flex-direction: column;
     }
   }
-  
+  .navigation.scrolled {
+  background-color: #555; /* Nouvelle couleur de fond */
+  /* Ajoutez d'autres modifications de style ici */
+}
+#lightbox {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0.8);
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+.lightbox-img {
+  max-width: 100%;
+  height: auto;
+}
